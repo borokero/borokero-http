@@ -3,9 +3,6 @@ const HTTP = require('./lib/http')
 const aedes = require('aedes')()
 var authBroker = require('@borokero/borokero-auth')
 const debug = require('debug')('borokero-iot-http')
-const mqemitter = require('mqemitter-mongodb')
-const mongoPersistence = require('aedes-persistence-mongodb')
-
 
 const options = {
   mqtt: {
@@ -36,19 +33,6 @@ const options = {
 
 
 const authbroker = new authBroker(options.envAuth)
-aedes = require('aedes')({
-  mq: mqemitter({
-    url: options.db.url
-  }),
-  persistence: mongoPersistence({
-    url: options.db.url,
-    // Optional ttl settings
-    ttl: {
-      packets: options.db.ttl.packets, // Number of seconds
-      subscriptions: options.db.ttl.subscriptions
-    }
-  })
-})
 
 aedes.on('retained', function (topic, payload) {
   debug(
