@@ -1,5 +1,15 @@
-os:
-  - linux
+sudo: required
+dist: focal
 language: node_js
+cache:
+  npm: false
+addons:
+  chrome: stable
 node_js:
-  - stable
+  - "14"
+
+install:
+  - npm install
+
+script: 
+  - npm test

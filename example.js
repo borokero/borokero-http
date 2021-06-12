@@ -50,5 +50,5 @@ const http = new HTTP({
     authorizePut: authbroker.authorizePublish()
   },
   function (err, res) {
-    console.log(err)
+    debug(err)
   })
