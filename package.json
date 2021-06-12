@@ -1,6 +1,6 @@
 {
   "name": "borokero-http",
-  "version": "0.0.1",
+  "version": "0.0.1-development",
   "description": "http broker based on nodejs",
   "homepage": "https://github.com/borokero/borokero-http#readme",
   "repository": {
@@ -16,6 +16,16 @@
   },
   "author": "Hadi Mahdavi",
   "license": "ISC",
+  "keywords": [
+    "moscajs",
+    "aedes",
+    "authentication",
+    "authorization",
+    "mqtt",
+    "http",
+    "credintial",
+    "access token"
+  ],
   "dependencies": {
     "@borokero/borokero-auth": "0.0.2-development",
     "aedes": "0.46.0",
