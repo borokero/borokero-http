@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/borokero/borokero-docs/master/images/iok-logo.svg" width="30"> HTTP Broker for IoT based on aedes
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![Build Status](https://github.com/borokero/borokero-http/actions/workflows/node.js.yml/badge.svg)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) ![Build Status](https://github.com/borokero/borokero-http/actions/workflows/node.js.yml/badge.svg)
 
 HTTP Broker is based on [Ponte](https://github.com/eclipse/ponte) project a  great work of Matteo Collina but with AEDES core and service REST API for IoT or Internet of Things.
 
