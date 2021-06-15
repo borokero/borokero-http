@@ -1,5 +1,5 @@
 {
-  "name": "borokero-http",
+  "name": "@borokero/borokero-http",
   "version": "0.0.1-development",
   "description": "http broker based on nodejs",
   "homepage": "https://github.com/borokero/borokero-http#readme",
